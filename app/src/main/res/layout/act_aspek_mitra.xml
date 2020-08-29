@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mitra.aspek_mitra">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FAF1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Harga Pakan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbsapronak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbsapronak01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.000+" />
+
+                <RadioButton
+                    android:id="@+id/rbsapronak02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.000+" />
+
+                <RadioButton
+                    android:id="@+id/rbsapronak03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="8.000+" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Harga DOC"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbsapronak1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbsapronak11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4.000/ekor" />
+
+                <RadioButton
+                    android:id="@+id/rbsapronak12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5.000/ekor" />
+
+                <RadioButton
+                    android:id="@+id/rbsapronak13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6.000/ekor" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Modal Awal"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbpembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Juta - 4 Juta" />
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 Juta - 6 Juta" />
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7 Juta - 8 Juta" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Komisi"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbpembayaran1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kontrak" />
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bobot panen" />
+
+                <RadioButton
+                    android:id="@+id/rbpembayaran13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Harga pasar" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Pelayanan PPL"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbpelayanan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Konsultasi" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Konsultasi,Manajemen" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Konsultasi,Manajemen,Kesehatan" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Kesehatan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbpelayanan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tidak" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Eksternal" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Internal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F78F8F"
+                android:text="Waktu check kandang"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbpelayanan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fleksibel" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 Minggu 2x" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 Hari 1x" />
+
+                <RadioButton
+                    android:id="@+id/rbpelayanan24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 Hari 1x" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_maspeksubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_btn_mitra"
+                android:text="Simpan Perubahan"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

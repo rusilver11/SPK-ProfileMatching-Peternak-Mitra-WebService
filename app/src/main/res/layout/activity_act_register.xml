@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".act_register">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/btn_bg"
+        android:orientation="vertical"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:id="@+id/daftarakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Daftar Akun"
+            android:textColor="#3f4658"
+            android:textSize="28dp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Username"
+            android:textColor="#BC3F4658"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:drawableRight="@drawable/ic_user" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Email"
+            android:textColor="#BC3F4658"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:drawableRight="@drawable/ic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Password"
+            android:textColor="#BC3F4658"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_pass" />
+
+
+        <TextView
+            android:id="@+id/textView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Tipe Pengguna"
+            android:textColor="#BC3F4658"
+            android:textSize="18dp" />
+
+        <RadioGroup
+            android:id="@+id/radioType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonPeternak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Peternak"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMitra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Mitra"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"
+            android:text="Daftar Sekarang"
+            android:textColor="#ffff"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Sudah Punya Akun?"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewLogin"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Masuk"
+                android:textColor="#9ACEFD"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

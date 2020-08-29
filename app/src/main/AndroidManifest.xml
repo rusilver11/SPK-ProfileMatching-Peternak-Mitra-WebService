@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suryaproserver">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Mitra.hasilhitung_mitra"></activity>
+        <activity android:name=".Peternak.hasilhitung_peternak" />
+        <activity android:name=".Mitra.detail_hasil_mitra" />
+        <activity android:name=".Peternak.detail_hasil_peternak" />
+        <activity android:name=".Mitra.daftarp_mitra" />
+        <activity android:name=".Peternak.daftarm_peternak" />
+        <activity android:name=".Mitra.hasilrekom_mitra" />
+        <activity android:name=".Mitra.rekomendasi_mitra" />
+        <activity android:name=".Peternak.hasilrekom_peternak" />
+        <activity android:name=".Mitra.main_mitra" />
+        <activity android:name=".Mitra.aspekview_mitra" />
+        <activity android:name=".Mitra.aspek_mitra" />
+        <activity android:name=".Mitra.biodata_mitra" />
+        <activity android:name=".Mitra.biodataview_mitra" />
+        <activity android:name=".Peternak.rekomendasi_peternak" />
+        <activity android:name=".Peternak.daftarmitra_peternak" />
+        <activity android:name=".Peternak.aspek_peternak" />
+        <activity android:name=".Peternak.aspekedit_peternak" />
+        <activity android:name=".Peternak.biodata_peternak" />
+        <activity android:name=".Peternak.biodataview_peternak" />
+        <activity android:name=".act_register" />
+        <activity android:name=".act_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Peternak.main_peternak" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
